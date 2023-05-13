@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: #000;
+  color: #fff;
 }
 
 .App-logo {
@@ -36,3 +38,29 @@
     transform: rotate(360deg);
   }
 }
+
+#heading{
+  font-size:50px;
+}
+
+.operators{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.inputField{
+  width: 500px;
+  height: 30px;
+
+}
+
+.btn{
+  padding: 20px;
+  display: inline;
+  background-color: #fff;
+  color: #000;
+}
+
+
