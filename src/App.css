@@ -1,12 +1,9 @@
 .App {
+  margin-top: -30px;
   text-align: center;
   background-color: #000;
   color: #fff;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  height: 100vh;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -15,16 +12,6 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
 .App-link {
   color: #61dafb;
@@ -51,16 +38,34 @@
 }
 
 .inputField{
-  width: 500px;
+  width: 250px;
   height: 30px;
-
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 10px;
+  background-color: #000;
+  margin: 20px;
+  font-size: 24px;
 }
 
-.btn{
+button{
+  margin: 10px;
   padding: 20px;
-  display: inline;
-  background-color: #fff;
-  color: #000;
+  font-size: 20px;
 }
 
+.input{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+#message{
+  font-size: 20px;
+}
+
+#result{
+  font-size: 25px;
+  margin: 20px;
+}
